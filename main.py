@@ -5,6 +5,7 @@ import random
 
 t.colormode(255)
 tt = t.Turtle()
+tt.speed("fastest")
 def set_position():
     tt.up()
     tt.sety(-100)
